@@ -56,7 +56,7 @@ fn main() {
     content.sort();
 
     let out = format!(
-        "{}\n\nnamespace {project_name} {{\n{}\n}}",
+        "{}\n\nnamespace {project_name}Singular {{\n{}\n}}",
         uses.join("\n"),
         content.join("\n\n")
     );
