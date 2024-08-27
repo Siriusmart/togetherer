@@ -1,6 +1,13 @@
 [package]
 name = "togetherer"
+description = "A simple tool to put C# projects into a single source file"
 version = "0.1.0"
 edition = "2021"
+authors = ["Siriusmart <Siriusmart@tuta.io>"]
+readme = "README.md"
+license = "AGPL-3.0"
+repository = "https://github.com/Siriusmart/togetherer"
+keywords = ["csharp", "cs", "classicube", "mcgalaxy", "plugin"]
+categories = ["command-line-interface"]
 
 [dependencies]
